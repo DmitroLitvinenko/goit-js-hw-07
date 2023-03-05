@@ -5,7 +5,6 @@ import { galleryItems } from './gallery-items.js';
 
 
 const galleryContainer = document.querySelector('.gallery');
-const modalContentElement = document.querySelector('.modal');
 
 const imgElements = galleryItems.map( ({original, preview, description} )  => {
     return `
